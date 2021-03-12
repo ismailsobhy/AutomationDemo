@@ -11,6 +11,8 @@ The project consists of the following:
 * Also package pagefactory which has all the components and actions for the automation and called from StepDefinations.java
 
 Installation:
-This project is a maven project, and can be both acquired from github and imported as a maven project in eclipse/intellij. The chrome driver stored in src\chromedriver.exe, this supports the last version of chrome browser at the time the project was done, however if chrome browser is of a different version this will make the automation not work. Be sure to download and replace the chrome driver corresponding to chrome browser version
+This project is a maven project, and can be both acquired from github and imported as a maven project in eclipse/intellij. The chrome driver should to be stored in src\chromedriver.exe, the version should be the same as the chrome browser on your machine and can be downloaded from.
+
+Screenshots can be found in Screenshots directory in test-output\Screenshots
 
 The extent report will be generated in target\cucumber-reports\report.html
